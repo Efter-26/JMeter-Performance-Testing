@@ -81,6 +81,7 @@ cd your-repo-name
 - Open JMeter in **GUI mode** and load the `.jmx` file from the **dmoney** folder.
 - Ensure the **CSV files** (`deposit.csv`, `sendMoney.csv`, `payment.csv`, `withdraw.csv`) are properly linked to the corresponding **CSV Data Set Config** in the test plan.
 - Run the test in **GUI mode** to verify correct data handling.
+- Verify the test results using **View Results Tree**.
 
 ### Non-GUI Mode:
 - Run the test in **Non-GUI mode** and generate the **HTML report**:
