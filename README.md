@@ -15,7 +15,7 @@ This project consists of two JMeter collections (booking.jmx, dmoney.jmx) create
   - **Load Testing** and **Stress Testing** on these API endpoints using both **GUI mode** (for test creation, test debugging) and **Non-GUI mode** (for perform testing and generating HTML reports).
   - After successfully passed the **load test**,Then **stress test** identifies the server’s bottleneck throughput under maximum stress.
 
-- Screenshots for the test results of **Load Test Report**, **Stress Test Report** and the **HTML reports** are included in [**Analyze Reports**](#analyze-reports)
+- Screenshots for the test results of **Load Test Report**, **Stress Test Report** and the **HTML reports** are included in [**Analyze Reports**](#analyze-reports) secion.
 
 ### 2. Dmoney (CSV Data Handling and Transactions)
 - A **JMeter collection** (dmoney.jmx) was created using the **Dmoney API**, with the following CSV files:
@@ -30,7 +30,7 @@ This project consists of two JMeter collections (booking.jmx, dmoney.jmx) create
   - The withdrawal amounts were generated using **Boundary Value Analysis (BVA)**, and the amounts for other transactions were dynamic using the **Random Variable Controller**.
   - Each transaction is executed in both **GUI mode** (for validation) and **Non-GUI mode** (to generate HTML reports).
   
-- Screenshots for the **HTML report** are included in [**Analyze Reports**](#analyze-reports)
+- Screenshots for the **HTML report** are included in [**Analyze Reports**](#analyze-reports) section.
 ---
 
 ## Prerequisites
